@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  flask-site:
+    build: .
+    volumes:
+      - ./lab3:/home/lab3
+    ports:
+      - "5555:5555"
